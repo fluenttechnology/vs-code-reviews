@@ -130,6 +130,8 @@ function responseReviewers( responses ) {
 fetchConfiguration.then( config => {
 
     config = Object.assign( { ver: "3.0" }, config );
+    config.webItemUrlTemplate = `${config.webRoot}/_workitems?id=`;
+    
     Promise.all( [
 
         new WorkItemClient(config).fetchRecentResponses("Flexi-Grant"),
