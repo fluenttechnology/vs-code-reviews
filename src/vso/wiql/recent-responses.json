@@ -1,0 +1,3 @@
+{
+	"query": "SELECT * FROM WorkItemLinks WHERE Source.[System.WorkItemType] = 'Code Review Response' AND Source.[System.TeamProject] = {{project}} ORDER BY System.CreatedDate DESC"
+}

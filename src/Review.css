@@ -1,0 +1,97 @@
+.Review {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.Review > * {
+
+    padding: 2px;
+    margin-right: 15px;    
+
+}
+
+.Review-status {
+        
+    min-width: 110px;
+    font-size: 75%;    
+    border-radius: 2px;    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.Review-detail {
+
+    display: none;
+    flex-basis: 100%;
+    overflow: hidden;
+
+}
+.Review-item_Selected .Review-detail {
+
+    display: initial;
+    
+}
+
+.Review_Requested .Review-status {
+
+    background-color: aqua;
+
+}
+
+.Review_Accepted .Review-status {
+
+    background-color: Lime;
+
+}
+
+.Review_Looks-Good .Review-status {
+
+    background-color: #EEFFEE;
+    color: #BBCCBB;
+
+}
+
+.Review_Declined .Review-status,
+.Review_Removed .Review-status {
+
+    background-color: #CCC;
+    color: white;
+
+}
+
+.Review_With-Comments .Review-status {
+
+    background-color: #EEFFEE;
+    color: green;
+
+}
+
+.Review_Needs-Work .Review-status {
+
+    background-color: #FFCCCC;    
+
+}
+
+.Review-severity-0 {
+
+    font-size: 70%;
+    font-style: italic;
+
+}
+.Review-severity-1 {
+
+    background-color: rgba(255,100,0,0.3);
+    padding: 5px;
+
+}
+.Review-severity-2 {
+
+    background-color: rgba(255,100,100,0.8);
+    padding: 10px;
+
+}

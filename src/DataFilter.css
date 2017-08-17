@@ -1,0 +1,26 @@
+.DataFilter-maxResponses,
+.DataFilter-maxDaysAgo {
+
+    width: 50px;
+    padding: 5px;
+
+}
+.DataFilter-disposition {
+
+    display: block;
+    margin: 5px 20px;
+    height: 85px;
+    overflow: auto;
+    border: solid 5px #EEE;
+
+}
+.DataFilter-disposition + button {
+    
+    margin-left: 20px;
+
+}
+.DataFilter-disposition option {
+    
+    padding: 5px;    
+
+}

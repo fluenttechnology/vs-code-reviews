@@ -1,0 +1,36 @@
+.recent-reviews ul {
+
+  list-style: none;  
+  padding: 0;
+
+}
+.Review-item {
+
+    padding: 10px 10px;
+
+}
+.Review-item p { 
+
+    margin: 0.25em;
+
+}
+.Review-title {
+    
+    flex: 1;    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.Review-item:hover {
+
+    background-color: #CCEEFF;
+    cursor: pointer;
+    
+}
+.Review-item_Selected,
+.Review-item_Selected:hover {
+
+    background: linear-gradient(-130deg, #6ff3ea 0%, #8de5ee 51%, #95daf3 75%)    
+
+}
